@@ -146,8 +146,9 @@ public class CommonMethods extends BaseClass {
 		return wait;
 	}
 
-	public static void waitForClickability(WebElement element) {
+	public static WebElement waitForClickability(WebElement element) {
 		getWaitObject().until(ExpectedConditions.elementToBeClickable(element));
+		return element;
 	}
 
 	public static void click(WebElement element) {

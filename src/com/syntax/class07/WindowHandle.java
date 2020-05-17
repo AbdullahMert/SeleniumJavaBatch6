@@ -31,7 +31,7 @@ public class WindowHandle {
 		Thread.sleep(1000);
 		
 		Set<String> allWindowHandles=driver.getWindowHandles();
-		System.out.println("What is the NUmber of windows opened?"+allWindowHandles.size() );
+		System.out.println("What is the Number of windows opened?"+allWindowHandles.size() );
 		
 		Iterator<String>it=allWindowHandles.iterator();
 		while(it.hasNext()) {
