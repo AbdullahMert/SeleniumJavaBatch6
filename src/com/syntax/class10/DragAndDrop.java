@@ -30,7 +30,7 @@ public class DragAndDrop {
 		action.dragAndDrop(drag, drop).perform(); //// same as line 25
 		
 		Thread.sleep(3000);
-		driver.quit();
+		driver.quit();//
 
 	}
 
